@@ -2,7 +2,7 @@
 
 ### Result
 
-<img src="./asset/score_best.png" alt="result" style="zoom:80%;" />
+<img src="average_score.png" alt="result" style="zoom:80%;" />
 
 
 
