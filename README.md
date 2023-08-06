@@ -1,5 +1,8 @@
 # PyTorch Implementation of Proximal Policy Optimization (PPO)
 
+Most of the code was taken from:
+[RPC2](https://github.com/RPC2/PPO)
+
 ### Result
 
 <img src="average_score.png" alt="result" style="zoom:80%;" />
@@ -9,6 +12,9 @@
 OpenAI [defines](https://github.com/openai/gym/blob/master/gym/envs/classic_control/cartpole.py) CartPole as solved "when the average reward is greater than or equal to 195.0 over 100 consecutive trials."
 
 ### Hyperparameter used
+NO_RUNS = 100
+
+EPISDOE_LIMIT = 250
 
 gamma = 0.99
 
@@ -31,3 +37,6 @@ entropy_coef = 0.01
 [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347)
 
 [seungeunrho](https://github.com/seungeunrho)/[minimalRL](https://github.com/seungeunrho/minimalRL)
+
+Most of the code was taken from:
+[RPC2](https://github.com/RPC2/PPO)
