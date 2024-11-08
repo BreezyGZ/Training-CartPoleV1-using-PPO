@@ -1,8 +1,5 @@
 # PyTorch Implementation of Proximal Policy Optimization (PPO)
 
-Most of the code was taken from:
-[RPC2](https://github.com/RPC2/PPO)
-
 ### Result
 
 <img src="average_score.png" alt="result" style="zoom:80%;" />
@@ -37,6 +34,3 @@ entropy_coef = 0.01
 [Proximal Policy Optimization Algorithms](https://arxiv.org/abs/1707.06347)
 
 [seungeunrho](https://github.com/seungeunrho)/[minimalRL](https://github.com/seungeunrho/minimalRL)
-
-Most of the code was taken from:
-[RPC2](https://github.com/RPC2/PPO)
